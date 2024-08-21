@@ -9,12 +9,7 @@ public class App {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double respsoma;
-        double respsub;
-        double respmulti;
-        double respdivi;
-        double n1;
-        double n2;
+        double respsoma, respsub, respmulti, respdivi, n1, n2;
         int escolha;
         int escolha2 = 0;
         int i = 0;
@@ -27,16 +22,16 @@ public class App {
                 break;
             } else {
 
-                System.out.println("\nDigite o primeiro n˙mero:");
+                System.out.println("\nDigite o primeiro n√∫mero:");
                 n1 = in.nextDouble();
-                System.out.println("Digite o segundo n˙mero:");
+                System.out.println("Digite o segundo n√∫mero:");
                 n2 = in.nextDouble();
 
-                System.out.println("\nQual operaÁ„o deseja fazer?");
+                System.out.println("\nQual opera√ß√£o deseja fazer?");
                 System.out.println("1 --> Soma");
-                System.out.println("2 --> SubtraÁ„o");
-                System.out.println("3 --> MultiplicaÁ„o");
-                System.out.println("4 --> Divis„o");
+                System.out.println("2 --> Subtra√ß√£o");
+                System.out.println("3 --> Multiplica√ß√£o");
+                System.out.println("4 --> Divis√£o");
                 escolha = in.nextInt();
 
                 switch (escolha) {
